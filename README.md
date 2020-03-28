@@ -1,5 +1,7 @@
-# hello-next
+# david-trussler-net_next
 
-## Getting started with next.js
+## Recreates david-trussler-net as a next.js app
 
-Based on [next.js official documentation}(https://nextjs.org/learn/basics/getting-started)
+See [next.js official documentation](https://nextjs.org/docs/) for detailed decription of the process involved. 
+
+This work is based on [david-trussler-net_react](https://github.com/davidtrussler/david-trussler-net_react) and repurposes it as a next app to facilitate server side deployment. 
