@@ -1,23 +1,19 @@
 @import 'reset';
 @import 'variables'; 
+@import 'mixins'; 
 @import 'grid'; 
 @import 'mediaqueries'; 
 @import 'base'; 
 @import 'header'; 
-
-main, footer {
-	@include clearfix; 
-}
+@import 'footer'; 
 
 main {
+	@include clearfix; 
+
 	margin: 0 0 0.5rem; 
 }
 
-footer {
-	background: $colour-primary_background;
-}
-
-.main__inner, .footer__inner {
+.main__inner {
 	@include column(12); 
 }
 
@@ -36,26 +32,5 @@ footer {
 
 	img {
 		width: 100%; 
-	}
-}
-
-.footer__links {
-	@include clearfix; 
-
-	margin: 0.5rem 0 0;
-}
-
-.footer__linkitem {
-	@include respond-to($mq-s) {
-		float: left; 
-		border-left: solid 1px; 
-		margin-left: $default-gutter; 
-		padding-left: $default-gutter; 
-
-		&:first-child {
-			border-left: none; 
-			margin-left: 0; 
-			padding-left: 0; 
-		}
 	}
 }

@@ -25,7 +25,7 @@ export function Footer(props) {
             </ul>
           </nav>
 
-          <p>&#169; David Trussler 2020</p>
+          <p className="footer__credit">&#169; David Trussler 2020</p>
         </div>
       </div>
     </footer>
