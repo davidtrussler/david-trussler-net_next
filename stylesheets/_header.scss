@@ -1,0 +1,30 @@
+header {
+	margin: 1rem 0; 
+}
+
+.header__inner {
+	@include column(12); 
+
+	margin-bottom: 1rem; 
+
+	&:after {
+		content: ''; 
+		clear: both; 
+		display: block; 
+		height: 2px;
+		border-radius: 1px;
+		background: $colour-primary_background;
+		box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+	}
+}
+
+.header__title {
+	font-size: 4.375rem; 
+	line-height: .85; 
+	text-transform: lowercase;
+	margin-bottom: 1rem; 
+
+	// Forces word break
+	width: 0;
+	overflow: visible; 
+}
