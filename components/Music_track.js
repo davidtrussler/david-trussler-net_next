@@ -1,20 +1,24 @@
-export function Music_track() {
+export function Music_track(props) {
 	return (
-		<div className="block" id="seinix">
-			<h3>seinix</h3>
+		<section className="music__track">
+			<h3>{props.title}</h3>
 
-			<h4>electronics</h4>
+			<ul>
+			{
+				props.instruments.map(instrument =>
+					<li>{instrument}</li>
+				)
+			}
+			</ul>
 
-			<p>
-				<img src="images/music/tracks/seinix.gif" className="pic"/>
+			<img src={`images/music/tracks/${props.title}.gif`}/>
 
-				After creating <span className="namedTitle">foniq</span>, which was a remix from supplied sound samples, I decided to recreate its spirit in a piece that used completely original sounds. This collection of clicks and bleeps is the result.
-			</p>
+			<p>{props.text}</p>
 
 			<audio controls>
-				<source src="http://www.zen146343.zen.co.uk/davidtrussler/audio/seinix.mp3" type="audio/mpeg"/>
-				<source src="http://www.zen146343.zen.co.uk/davidtrussler/audio/seinix.ogg" type="audio/ogg; codecs=&quot;vorbis&quot;"/> 
+				<source src={`http://www.zen146343.zen.co.uk/davidtrussler/audio/${props.title}.mp3`} type="audio/mpeg"/>
+				<source src={`http://www.zen146343.zen.co.uk/davidtrussler/audio/${props.title}.ogg`} type="audio/ogg; codecs=&quot;vorbis&quot;"/> 
 			</audio> 
-		</div>
+		</section>
 	)
 }
