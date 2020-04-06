@@ -5,8 +5,8 @@ export function Music_track(props) {
 
 			<ul>
 			{
-				props.instruments.map(instrument =>
-					<li>{instrument}</li>
+				props.instruments.map((instrument, i) =>
+					<li key={`instruments_${props.title}_${i}`}>{instrument}</li>
 				)
 			}
 			</ul>
