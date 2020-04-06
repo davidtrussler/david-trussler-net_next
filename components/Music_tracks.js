@@ -1,4 +1,5 @@
 import {Music_track} from './Music_track'; 
+import {Anchor} from './Anchor'; 
 
 export function Music_tracks() {
 	return (
@@ -17,7 +18,7 @@ export function Music_tracks() {
 				instruments={['electronics']}
 				text={
 					<React.Fragment>
-						This piece is constructed entirely from processed piano sounds, sometimes recognisable, occasionally processed out of all recognition. It originated from an invitation by the record label 12k to remix the source sounds used by Taylor Deupree and Kenneth Kirschner in their release <a href="http://12k.com/index.php/site/releases/post_piano_2/" className="newWindow">Post_Piano 2</a>. In my own mind it is perhaps the piece with which I am most pleased listening back. The orginal samples were of very low quality and much of the sound present here is as much the tape hiss and background noise present on the orginals as the actual pianos.
+						This piece is constructed entirely from processed piano sounds, sometimes recognisable, occasionally processed out of all recognition. It originated from an invitation by the record label 12k to remix the source sounds used by Taylor Deupree and Kenneth Kirschner in their release <Anchor href="http://12k.com/index.php/site/releases/post_piano_2/" target="_blank" link="Post_Piano 2"/>. In my own mind it is perhaps the piece with which I am most pleased listening back. The orginal samples were of very low quality and much of the sound present here is as much the tape hiss and background noise present on the orginals as the actual pianos.
 					</React.Fragment>
 				}
 			/>
@@ -35,7 +36,7 @@ export function Music_tracks() {
 				instruments={['electronics']}
 				text={
 					<React.Fragment>
-						This has its origins as a remix project for the <a href="http://porousher.hu" className="newWindow">porousher</a> label in Hungary. It was supposed to feature on a CD but to be honest I have no idea if it ever did, although it did get some radio play on <a href="http://wrvu.org" className="newWindow">WRVU</a> in Nashville. This piece, and the subsequent reworking <span className="namedTitle">seinix</span>, probably represent the nearest approach I have ever made—and maybe am likely to make—to something that approaches standard notions of beat and melody. I don’t go there often but, contrary to the opinion of some, I have nothing against these things.
+						This has its origins as a remix project for the <Anchor href="http://porousher.hu" target="_blank" link="porousher"/> label in Hungary. It was supposed to feature on a CD but to be honest I have no idea if it ever did, although it did get some radio play on <Anchor href="http://wrvu.org" target="_blank" link="WRVU"/> in Nashville. This piece, and the subsequent reworking <span className="namedTitle">seinix</span>, probably represent the nearest approach I have ever made—and maybe am likely to make—to something that approaches standard notions of beat and melody. I don’t go there often but, contrary to the opinion of some, I have nothing against these things.
 					</React.Fragment>
 				}
 			/>
@@ -53,7 +54,7 @@ export function Music_tracks() {
 				instruments={['electronics', 'guitar']}
 				text={
 					<React.Fragment>
-						This piece is based on swirling electronic drones and whines battling with the sounds of a heavily-processed guitar. I was inspired by a photograph in John Pilger’s book <span className="namedTitle"><a href="http://johnpilger.com/books/reporting-the-world-john-pilgers-great-eyewitness-photographers" className="newWindow">Reporting the World: John Pilger’s Great Eyewitness Photographers</a></span>, depicting cars and other modern day household items decaying and overgrown by vegetation as a result of policies of the Khmer Rouge in Cambodia—a haunting image. I was after a kind of mix of an electronic machine-created, metallic sound interrupted and eventually overcome by the more organic sound of an electric guitar played, if I remember correctly, with a screwdriver. It might be the noisiest piece I’ve ever done although still a little way off Merzbow.
+						This piece is based on swirling electronic drones and whines battling with the sounds of a heavily-processed guitar. I was inspired by a photograph in John Pilger’s book <span className="namedTitle"><Anchor href="http://johnpilger.com/books/reporting-the-world-john-pilgers-great-eyewitness-photographers" target="_blank" link="Reporting the World: John Pilger’s Great Eyewitness Photographers"/></span>, depicting cars and other modern day household items decaying and overgrown by vegetation as a result of policies of the Khmer Rouge in Cambodia—a haunting image. I was after a kind of mix of an electronic machine-created, metallic sound interrupted and eventually overcome by the more organic sound of an electric guitar played, if I remember correctly, with a screwdriver. It might be the noisiest piece I’ve ever done although still a little way off Merzbow.
 					</React.Fragment>
 				}
 			/>
@@ -89,7 +90,7 @@ export function Music_tracks() {
 				instruments={['electronics']}
 				text={
 					<React.Fragment>
-						This is an excerpt from a compilation CD released by the <a href="http://reaktion.free.fr/" className="newWindow">(re)aktion</a> label in France. It was one of many pieces of a minute’s duration or less submitted to the label and released on CD. It involved, if I remember corrrectly, the random distribution of a number of samples which were made into a more meaningful soundwork and sent back to be compiled.
+						This is an excerpt from a compilation CD released by the <Anchor href="http://reaktion.free.fr/" target="_blank" link="(re)aktion"/> label in France. It was one of many pieces of a minute’s duration or less submitted to the label and released on CD. It involved, if I remember corrrectly, the random distribution of a number of samples which were made into a more meaningful soundwork and sent back to be compiled.
 					</React.Fragment>
 				}
 			/>
