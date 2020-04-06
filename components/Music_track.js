@@ -15,6 +15,8 @@ export function Music_track(props) {
 
 			<p>{props.text}</p>
 
+			<p>{props.text_2}</p>
+
 			<audio controls>
 				<source src={`http://www.zen146343.zen.co.uk/davidtrussler/audio/${props.title}.mp3`} type="audio/mpeg"/>
 				<source src={`http://www.zen146343.zen.co.uk/davidtrussler/audio/${props.title}.ogg`} type="audio/ogg; codecs=&quot;vorbis&quot;"/> 
