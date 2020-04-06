@@ -1,5 +1,6 @@
 import {Music_track} from './Music_track'; 
 import {Anchor} from './Anchor'; 
+import {InlineTitle} from './InlineTitle'; 
 
 export function Music_tracks() {
 	return (
@@ -9,7 +10,7 @@ export function Music_tracks() {
 				instruments={['electronics']}
 				text={
 					<React.Fragment>
-						After creating <span className="namedTitle">foniq</span>, which was a remix from supplied sound samples, I decided to recreate its spirit in a piece that used completely original sounds. This collection of clicks and bleeps is the result.
+						After creating <InlineTitle text="foniq"/>, which was a remix from supplied sound samples, I decided to recreate its spirit in a piece that used completely original sounds. This collection of clicks and bleeps is the result.
 					</React.Fragment>
 				}
 			/>
@@ -36,7 +37,7 @@ export function Music_tracks() {
 				instruments={['electronics']}
 				text={
 					<React.Fragment>
-						This has its origins as a remix project for the <Anchor href="http://porousher.hu" target="_blank" link="porousher"/> label in Hungary. It was supposed to feature on a CD but to be honest I have no idea if it ever did, although it did get some radio play on <Anchor href="http://wrvu.org" target="_blank" link="WRVU"/> in Nashville. This piece, and the subsequent reworking <span className="namedTitle">seinix</span>, probably represent the nearest approach I have ever made—and maybe am likely to make—to something that approaches standard notions of beat and melody. I don’t go there often but, contrary to the opinion of some, I have nothing against these things.
+						This has its origins as a remix project for the <Anchor href="http://porousher.hu" target="_blank" link="porousher"/> label in Hungary. It was supposed to feature on a CD but to be honest I have no idea if it ever did, although it did get some radio play on <Anchor href="http://wrvu.org" target="_blank" link="WRVU"/> in Nashville. This piece, and the subsequent reworking <InlineTitle text="seinix"/>, probably represent the nearest approach I have ever made—and maybe am likely to make—to something that approaches standard notions of beat and melody. I don’t go there often but, contrary to the opinion of some, I have nothing against these things.
 					</React.Fragment>
 				}
 			/>
@@ -45,7 +46,7 @@ export function Music_tracks() {
 				instruments={['electronics', 'clarinet']}
 				text={
 					<React.Fragment>
-						This is a variation on the slightly earlier piece, <span className="namedTitle">year zero</span>, which is based on a processed motif played on clarinet together with some electronic sounds based on those. The clarinet motif is slowed down and repeated over and over throughout the piece, although I don’t think it would be easily recognised as such.
+						This is a variation on the slightly earlier piece, <InlineTitle text="year zero"/>, which is based on a processed motif played on clarinet together with some electronic sounds based on those. The clarinet motif is slowed down and repeated over and over throughout the piece, although I don’t think it would be easily recognised as such.
 					</React.Fragment>
 				}
 			/>
@@ -54,7 +55,7 @@ export function Music_tracks() {
 				instruments={['electronics', 'guitar']}
 				text={
 					<React.Fragment>
-						This piece is based on swirling electronic drones and whines battling with the sounds of a heavily-processed guitar. I was inspired by a photograph in John Pilger’s book <span className="namedTitle"><Anchor href="http://johnpilger.com/books/reporting-the-world-john-pilgers-great-eyewitness-photographers" target="_blank" link="Reporting the World: John Pilger’s Great Eyewitness Photographers"/></span>, depicting cars and other modern day household items decaying and overgrown by vegetation as a result of policies of the Khmer Rouge in Cambodia—a haunting image. I was after a kind of mix of an electronic machine-created, metallic sound interrupted and eventually overcome by the more organic sound of an electric guitar played, if I remember correctly, with a screwdriver. It might be the noisiest piece I’ve ever done although still a little way off Merzbow.
+						This piece is based on swirling electronic drones and whines battling with the sounds of a heavily-processed guitar. I was inspired by a photograph in John Pilger’s book <Anchor href="http://johnpilger.com/books/reporting-the-world-john-pilgers-great-eyewitness-photographers" target="_blank" link={<InlineTitle text="Reporting the World: John Pilger’s Great Eyewitness Photographers"/>}/>, depicting cars and other modern day household items decaying and overgrown by vegetation as a result of policies of the Khmer Rouge in Cambodia—a haunting image. I was after a kind of mix of an electronic machine-created, metallic sound interrupted and eventually overcome by the more organic sound of an electric guitar played, if I remember correctly, with a screwdriver. It might be the noisiest piece I’ve ever done although still a little way off Merzbow.
 					</React.Fragment>
 				}
 			/>
