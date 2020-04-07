@@ -19,3 +19,14 @@
 	background: $colour-primary_background;
 	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
 }
+
+@mixin clearfix {
+  &:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+  }
+}

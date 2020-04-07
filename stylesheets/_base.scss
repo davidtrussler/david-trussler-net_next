@@ -39,14 +39,3 @@ a {
 	width: 100%; 
 	margin: 0 auto;
 }
-
-@mixin clearfix {
-	&:after {
-		content: ".";
-		display: block;
-		clear: both;
-		visibility: hidden;
-		line-height: 0;
-		height: 0;
-	}
-}
