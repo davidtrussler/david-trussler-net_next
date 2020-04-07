@@ -3,17 +3,17 @@ export function Music_track(props) {
 
 	return (
 		<section className="music__track">
-			<h3>{props.title}</h3>
+			<h3 className="track__title">{props.title}</h3>
 
-			<ul>
+			<ul className="track__instruments">
 			{
 				props.instruments.map((instrument, i) =>
-					<li key={`instruments_${props.title}_${i}`}>{instrument}</li>
+					<li className="track__instrument" key={`instruments_${props.title}_${i}`}>{instrument}</li>
 				)
 			}
 			</ul>
 
-			<img src={`images/music/tracks/${filename}.gif`}/>
+			<img className="track__img" src={`images/music/tracks/${filename}.gif`}/>
 
 			<p>{props.text}</p>
 
