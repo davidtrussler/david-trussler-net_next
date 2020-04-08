@@ -5,11 +5,11 @@ export function Nav() {
 		<nav>
 			<ul>
 				<li>
-					<Anchor href="#" link="Home"/>
+					<Anchor href="/" link="Home"/>
 				</li>
 
 				<li>
-					<Anchor href="#" link="Music"/>
+					<Anchor href="music" link="Music"/>
 				</li>
 			</ul>
 		</nav>
