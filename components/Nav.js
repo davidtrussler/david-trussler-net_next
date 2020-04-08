@@ -2,13 +2,13 @@ import {Anchor} from '../components/Anchor';
 
 export function Nav() {
 	return (
-		<nav>
+		<nav className="main-nav">
 			<ul>
-				<li>
+				<li className="main-nav__element">
 					<Anchor href="/" link="Home"/>
 				</li>
 
-				<li>
+				<li className="main-nav__element">
 					<Anchor href="music" link="Music"/>
 				</li>
 			</ul>
