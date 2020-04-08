@@ -1,3 +1,4 @@
+import {hydrate} from 'react-dom';
 import {Nav} from '../components/Nav'; 
 
 export function Header() {
@@ -6,9 +7,11 @@ export function Header() {
 			<div className="constrained">
 				<div className="header__inner">
 					<h1 className="header__title">David Trussler</h1>
-					<Nav/>
+					<div id="nav"></div>
 				</div>
 			</div>
 		</header>
 	)
 }
+
+hydrate(<Nav/>, document.getElementById('nav')); 

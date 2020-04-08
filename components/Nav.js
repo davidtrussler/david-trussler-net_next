@@ -1,8 +1,12 @@
+// import {Component} from 'react';
 import {Anchor} from '../components/Anchor'; 
+// import {hydrate} from 'react-dom';
 
 export function Nav() {
 	return (
-		<nav className="main-nav">
+// export class Nav extends Component {
+//	 hydrate = () => 
+		<nav className="main-nav here">
 			<ul>
 				<li className="main-nav__element">
 					<Anchor href="/" link="Home"/>
